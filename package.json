@@ -11,6 +11,7 @@
   "author": "Elisha Nuchi",
   "license": "MIT",
   "scripts": {
+    "prepare": "npm run build",
     "prepack": "yarn build",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watch",
